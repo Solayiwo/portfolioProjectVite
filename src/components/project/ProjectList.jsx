@@ -1,5 +1,5 @@
 import Card from "../card/Card";
-import ola from "../../assets/images/solam.jpg";
+// import ola from "../../assets/images/solam.jpg";
 import porfolio from "../../assets/images/portfolio_project.png";
 import porfolio2 from "../../assets/images/portfolio_2.png";
 import porfolio3 from "../../assets/images/portfolio_3.png";
@@ -42,8 +42,8 @@ const ProjectList = () => {
               image={porfolio}
               technology="React"
               description="Project done during my software engineering training"
-              urlLink=""
-              sourceCode=""
+              urlLink="https://solam-portfolio-project-vite.vercel.app/"
+              sourceCode="https://github.com/Solayiwo/portfolioProjectVite"
             />
           </div>
 
