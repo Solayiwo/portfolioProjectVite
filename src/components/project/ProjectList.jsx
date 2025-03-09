@@ -1,10 +1,10 @@
 import Card from "../card/Card";
-// import ola from "../../assets/images/solam.jpg";
 import porfolio from "../../assets/images/portfolio_project.png";
 import porfolio2 from "../../assets/images/portfolio_2.png";
 import porfolio3 from "../../assets/images/portfolio_3.png";
 import porfolio4 from "../../assets/images/portfolio_4.png";
 import porfolio5 from "../../assets/images/portfolio_5.png";
+import movie from "../../assets/images/movie.png";
 
 const ProjectList = () => {
   return (
@@ -69,15 +69,16 @@ const ProjectList = () => {
             />
           </div>
 
-          {/* <div className="project-card">
+          <div className="project-card">
             <Card
-              name="A Portfolio Project"
-              image={ola}
-              description="Project is my first project in HTA"
-              urlLink=""
-              sourceCode=""
+              name="Movielookup"
+              image={movie}
+              technology="React (Vite), Tailwindcss, OMDB API"
+              description="A simple movie search website"
+              urlLink="https://movielookup.vercel.app/"
+              sourceCode="https://github.com/Solayiwo/movielookup"
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
