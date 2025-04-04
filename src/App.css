@@ -560,7 +560,7 @@ textarea {
   }
 }
 
-@media (min-width: 1023) and (max-width: 1024px) {
+@media (min-width: 1023px) and (max-width: 1024px) {
   .mobscrin {
     display: none;
   }
