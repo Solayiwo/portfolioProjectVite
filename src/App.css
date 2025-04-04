@@ -358,6 +358,9 @@ textarea {
 
 /* mobile screen */
 @media screen and (max-width: 480px) {
+  /* .deskscrin {
+    display: none;
+  } */
   .wrapper {
     height: 100dvh;
   }
@@ -372,6 +375,15 @@ textarea {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+  }
+  .project-card {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .thumbnail {
+    width: 300px;
+    height: 200px;
   }
 
   .footer {
@@ -466,12 +478,7 @@ textarea {
   }
 
   .project-card {
-    margin-bottom: 12px;
-  }
-
-  .thumbnail {
-    width: 400px;
-    height: 200px;
+    margin-bottom: 20px;
   }
 
   .contact-wrapper {
@@ -480,18 +487,44 @@ textarea {
 
   .contact-me {
     width: 80dvw;
-    display: flex;
-    justify-content: center;
+    margin-right: 16px;
   }
 
   .contact-form {
-    width: 80dvw;
+    width: 90dvw;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1022px) {
   .mobscrin {
     display: none;
+  }
+
+  .hero {
+    display: flex;
+    width: 90dvw;
+    margin-bottom: 50px;
+  }
+
+  .hero-image {
+    width: 50dvw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .hero-image img {
+    width: 320px;
+  }
+
+  .about-image {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-image img {
+    width: 260px;
+    margin-right: 20px;
   }
 
   .stack {
@@ -504,23 +537,65 @@ textarea {
   }
 
   .project-card {
+    width: 350px;
     margin-bottom: 12px;
   }
 
   .thumbnail {
-    width: 400px;
+    width: 350px;
     height: 200px;
   }
 
-  /* .hero-content,
-  .about-image,
-  .hero-image,
-  .about-content {
-    width: 90dvw;
-  } */
+  .contact-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70dvh;
+  }
+
+  .contact-image img {
+    width: 380px;
+    height: 400px;
+    gap: 20px;
+  }
 }
 
-@media screen and (min-width: 1023px) {
+@media (min-width: 1023) and (max-width: 1024px) {
+  .mobscrin {
+    display: none;
+  }
+
+  .hero-image {
+    width: 50dvw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .about-image {
+    width: 50dvw;
+  }
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .contact-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70dvh;
+  }
+
+  .contact-image img {
+    width: 380px;
+    height: 400px;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1920px) {
   .mobscrin {
     display: none;
   }

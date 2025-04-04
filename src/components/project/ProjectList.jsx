@@ -40,7 +40,7 @@ const ProjectList = () => {
             <Card
               name="Portfolio Project (React)"
               image={porfolio}
-              technology="React"
+              technology="React (Vite), CSS, Emailjs"
               description="Project done during my software engineering training"
               urlLink="https://solam-portfolio-project-vite.vercel.app/"
               sourceCode="https://github.com/Solayiwo/portfolioProjectVite"
@@ -51,7 +51,7 @@ const ProjectList = () => {
             <Card
               name="A Portfolio Project (Nextjs)"
               image={porfolio4}
-              technology="Nextjs"
+              technology="Nextjs, Tailwindcss"
               description="Project done during my software engineering training"
               urlLink=""
               sourceCode=""
