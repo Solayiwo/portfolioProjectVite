@@ -53,8 +53,8 @@ const ProjectList = () => {
               image={porfolio4}
               technology="Nextjs, Tailwindcss"
               description="Project done during my software engineering training"
-              urlLink=""
-              sourceCode=""
+              urlLink="https://personal-portfolio-olayiwola-sulaimons-projects.vercel.app/"
+              sourceCode="https://github.com/Solayiwo/personal-portfolio"
             />
           </div>
 
