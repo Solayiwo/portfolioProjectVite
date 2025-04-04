@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="hero">
         <div className="hero-content">
           <h1>I&#39;m Olayiwola Sulaimon</h1>
-          <h4>I am into Fullstack Software Engineer</h4>
+          <h4>I am into Fullstack Software Engineering</h4>
 
           <div className="hero-mobimage mobscrin">
             <img src={solam} alt="hello" width={300} />
