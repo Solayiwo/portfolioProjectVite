@@ -3,8 +3,8 @@ import porfolio from "../../assets/images/portfolio_project.png";
 import porfolio2 from "../../assets/images/portfolio_2.png";
 import porfolio3 from "../../assets/images/portfolio_3.png";
 import porfolio4 from "../../assets/images/portfolio_4.png";
-import porfolio5 from "../../assets/images/portfolio_5.png";
 import movie from "../../assets/images/movie.png";
+import crudapp from "../../assets/images/crudapp.png";
 
 const ProjectList = () => {
   return (
@@ -22,17 +22,6 @@ const ProjectList = () => {
               description="Project done during my software engineering training"
               urlLink="https://solayiwo.github.io/hta_projectx/"
               sourceCode="https://github.com/Solayiwo/hta_projectx/"
-            />
-          </div>
-
-          <div className="project-card">
-            <Card
-              name="Portfolio Project 1"
-              image={porfolio5}
-              technology="HTML, CSS, Javascript"
-              description="Project done during my software engineering training"
-              urlLink=""
-              sourceCode=""
             />
           </div>
 
@@ -77,6 +66,17 @@ const ProjectList = () => {
               description="A simple movie search website"
               urlLink="https://movielookup.vercel.app/"
               sourceCode="https://github.com/Solayiwo/movielookup"
+            />
+          </div>
+
+          <div className="project-card">
+            <Card
+              name="Simple CRUD Application"
+              image={crudapp}
+              technology="HTML, CSS, Javascript, Nodejs"
+              description="A simple crud app to perform crud operations"
+              urlLink="https://simple-crud-app-navy.vercel.app"
+              sourceCode="https://github.com/Solayiwo/simple-crud-app"
             />
           </div>
         </div>
