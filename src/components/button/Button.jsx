@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ola_cv from "../../assets/file/sulaimon_cv.pdf";
+import ola_cv from "../../assets/file/sulaimon-olayiwola_cv.pdf";
 
 export const Button = (props) => {
   return (
