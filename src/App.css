@@ -599,6 +599,12 @@ textarea {
   }
 }
 
+@media (min-width: 1024px) and (max-width: 1260px) {
+  .contact-image img {
+    width: 500px;
+  }
+}
+
 @media (min-width: 1024px) and (max-width: 1400px) {
   .hero-image {
     display: flex;

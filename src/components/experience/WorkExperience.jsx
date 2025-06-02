@@ -10,6 +10,13 @@ const WorkExperience = () => {
         <div className="project-grid">
           <div className="project-card">
             <CardExperience
+              name="Petrong Software Solutions"
+              position="Frontend Developer (Internship)"
+            />
+          </div>
+
+          <div className="project-card">
+            <CardExperience
               name="Brainy Codes Global Technology Limited"
               position="Software Engineering Intern (SIWES)"
             />
