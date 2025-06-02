@@ -506,6 +506,10 @@ textarea {
     margin-bottom: 50px;
   }
 
+  .hero-content p {
+    font-size: 16px;
+  }
+
   .hero-image {
     width: 50dvw;
     display: flex;
@@ -592,6 +596,32 @@ textarea {
     width: 380px;
     height: 400px;
     gap: 20px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .hero-image {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .hero-image img {
+    border-radius: 50%;
+    width: 370px;
+    height: 370px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1299px) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
   }
 }
 
