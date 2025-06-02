@@ -605,6 +605,12 @@ textarea {
   }
 }
 
+@media (min-width: 1024px) and (max-width: 1130px) {
+  .about-content {
+    width: 60dvw;
+  }
+}
+
 @media (min-width: 1024px) and (max-width: 1400px) {
   .hero-image {
     display: flex;
